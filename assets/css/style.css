@@ -6,10 +6,71 @@ body{
 
 #principal{
     width: 1024px;
-    margin: auto;
+    margin:  20px auto;
 }
 
 .header-top{
     height: 50px;
     background: #162028;
+    position: relative;
+}
+
+.logo{
+    margin: 5px 0 0 135px;
+}
+
+.header-nav{
+    position: absolute; 
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 10px;
+}
+
+.header-nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.portfolio{
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.portfolio h1{
+    font-size: 36px;
+    color: #252525;
+}
+
+.portfolio p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+
+.gallery{
+    color: #555;
+    padding: 0 100px 50px 100px;
+    background-color: red;
+    overflow: auto;
+    text-align: center;
+}
+
+.gallery-card{
+    width: 32%;
+    float: left;
 }
